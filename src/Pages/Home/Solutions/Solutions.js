@@ -2,11 +2,13 @@ import React from "react";
 
 const Solutions = () => {
   return (
-    <div className="bg-blue-100">
-      <h2 className="text-center text-3xl pt-10 pb-10">Our Solutions</h2>
+    <div className="primary-color text-white">
+      <h2 className="text-center text-3xl pt-10 pb-10 uppercase">
+        Our Solutions
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
         <div className="card glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -20,16 +22,16 @@ const Solutions = () => {
           <div className="card-body text-center">
             <h2 className="card-title justify-center">Customer Support</h2>
             <p>
-              Our expert Customer support is a range of customer services to
-              assist customers in making cost-effective and correct product use.
-              It includes assistance in planning, installation, training,
-              troubleshooting, maintenance, upgrading, and disposal of a product
-              or service.
+              Our expert customer assistance offers a variety of customer
+              services to help consumers use products in an affordable and
+              effective manner. It entails support with the design, provision of
+              training, implementation, maintenance, upgrade, and disposal of a
+              good or service.
             </p>
           </div>
         </div>
         <div className="card  glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +52,7 @@ const Solutions = () => {
           </div>
         </div>
         <div className="card  glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,16 +66,17 @@ const Solutions = () => {
           <div className="card-body text-center">
             <h2 className="card-title justify-center">Telemarketing & Sales</h2>
             <p>
-              Telemarketing directly markets goods or services to potential
-              customers via telephone or the Internet. Four common kinds of
-              telemarketing include outbound, inbound, lead generation, and
-              sales calls. Our sales experts with the conversational skills to
-              convince even the most demanding minds to make sales.
+              Telemarketing is the direct sale of products or services to
+              prospective clients over the phone or Internet. Outbound, inbound,
+              lead generation, and sales calls are four popular types of
+              telemarketing. Even the most difficult people can be persuaded to
+              buy by our sales professionals because to their expertise in
+              talking.
             </p>
           </div>
         </div>
         <div className="card  glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,15 +90,16 @@ const Solutions = () => {
           <div className="card-body text-center">
             <h2 className="card-title justify-center">Virtual Assistance</h2>
             <p>
-              Our virtual assistants are self-employed workers who specialize in
-              offering administrative services to clients from remote locations.
-              Typical tasks a virtual assistant might perform include scheduling
-              appointments, making phone calls, and managing email accounts.
+              Our virtual assistants are independent contractors that focus on
+              providing office support to clients in distant places. A virtual
+              assistant might carry out routine duties including making calls,
+              setting up appointments, and managing social media and email
+              accounts.
             </p>
           </div>
         </div>
         <div className="card  glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,17 +113,16 @@ const Solutions = () => {
           <div className="card-body text-center">
             <h2 className="card-title justify-center">Digital Marketing</h2>
             <p>
-              Digital marketing is the component of marketing that uses the
-              Internet and online-based digital technologies such as desktop
-              computers, mobile phones and other digital media and platforms to
-              promote products and services. Regarding digital marketing
-              teamwork, our key is to develop a team that works together towards
-              a common goal and does its best to help you meet it.
+              Digital marketing is the area of marketing that promotes goods and
+              services using the Internet and other online-based digital
+              technologies, including desktop and mobile devices. In terms of
+              digital marketing collaboration, it's important to create a group
+              that strives to achieve your objectives as a whole.
             </p>
           </div>
         </div>
         <div className="card  glass">
-          <div className="avatar justify-center mt-5">
+          <div className="flex justify-center mt-5">
             <div className="text-6xl rounded">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -135,11 +138,10 @@ const Solutions = () => {
               Web Design & Development
             </h2>
             <p>
-              Web design and development is an umbrella term that describes
-              creating a website. As the name suggests, it involves two primary
-              skill sets: web design and development. Web design determines the
-              look and feel of a website, while web development determines how
-              it functions.
+              A website's development falls within the broad category of web
+              design and development. It requires web design and development
+              skills, as the name would imply. While web development decides how
+              a website performs, web design affects how it looks and feels.
             </p>
           </div>
         </div>

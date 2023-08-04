@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="footer p-10 bg-blue-400 text-base-content lg:grid-cols-4">
+      <footer className="footer p-10 text-white primary-color lg:grid-cols-4">
         <div className="lg:col-span-2 lg:ml-24 lg:mt-5">
           <p className="lg:w-96">
             The Team of Synergy Business Solution has been lucky enough to work
@@ -55,7 +55,7 @@ const Footer = () => {
           </p>
         </div>
       </footer>
-      <h2 className="text-center text-xl pt-3 pb-3 bg-blue-600">
+      <h2 className="text-center text-xl pt-3 pb-3 bg-slate-800 text-white">
         Copyright © 2023 Synergy Business Solution
       </h2>
     </>

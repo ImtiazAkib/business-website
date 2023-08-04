@@ -10,12 +10,12 @@ const Banner = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="hero-overlay bg-primary bg-opacity-30"></div>
+      <div className="hero-overlay bg-blue-400 bg-opacity-30"></div>
       <div className="hero-content text-center text-white">
         <div>
           <h1 className="mb-5 text-5xl font-bold">WE PROVIDE SOLUTIONS</h1>
 
-          <button className="btn btn-primary uppercase pl-7 pr-7">
+          <button className="btn btn-neutral uppercase pl-7 pr-7">
             Contact us
           </button>
         </div>

@@ -14,14 +14,14 @@ const SimpleHero = () => {
           <h1 className="text-4xl font-bold">
             SYNERGY BUSINESS SOLUTION & BPO Services in Bangladesh
           </h1>
-          <hr className="w-10 mt-4 h-[3px] bg-primary" />
+          <hr className="w-10 mt-4 h-[3px] primary-color" />
           <p className="py-6">
             Synergy Business Solution provides offshore outsourcing in call
             centre operations and business back-end support from Bangladesh. We
             have been in the Business Process Outsourcing Industry for over two
             years.
           </p>
-          <button className="btn btn-primary">Read More</button>
+          <button className="btn btn-neutral">Read More</button>
         </div>
       </div>
     </div>

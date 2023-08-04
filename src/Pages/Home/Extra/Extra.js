@@ -7,7 +7,7 @@ const Extra = () => {
       <h1 className="text-4xl font-bold text-center mt-10">
         Life At Synergy Business Solution
       </h1>
-      <hr className="w-10 mt-4 h-[3px] bg-primary mr-auto ml-auto" />
+      <hr className="w-10 mt-4 h-[3px] primary-color mr-auto ml-auto" />
       <div className="hero mt-16 mb-16">
         <div className="hero-content flex-col lg:flex-row">
           <img
@@ -31,7 +31,7 @@ const Extra = () => {
               management team, who are working synergistically every day to make
               better improvements in this company.
             </p>
-            <button className="btn btn-primary">Read More</button>
+            <button className="btn btn-neutral">Read More</button>
           </div>
         </div>
       </div>

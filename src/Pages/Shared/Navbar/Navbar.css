@@ -1,4 +1,19 @@
-.nav-right ul li {
-  padding: 15px;
+.nav-right .right-menu > li {
+  padding: 30px;
   text-transform: capitalize;
+}
+.logo {
+  width: 100px;
+}
+.float-menu {
+  width: 250px;
+}
+.float-menu > li {
+  padding: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .nav-right .right-menu > li {
+    padding: 20px;
+  }
 }

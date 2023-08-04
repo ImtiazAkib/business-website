@@ -12,7 +12,7 @@ const BottomBanner = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="hero-overlay bg-primary bg-opacity-30"></div>
+      <div className="hero-overlay bg-blue-400 bg-opacity-30"></div>
       <div className="hero-content text-center text-white">
         <div className="lg:leading-10 leading-8">
           <h1 className="mb-5 text-2xl lg:text-5xl font-bold">

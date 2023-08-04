@@ -11,6 +11,7 @@ const QoutaForm = () => {
 
   const onSubmit = (data) => {
     console.log(data);
+    reset();
   };
 
   return (
@@ -19,7 +20,7 @@ const QoutaForm = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="flex justify-center items-center relative bottom-20 lg:bottom-10"
       >
-        <div className="flex justify-between items-center flex-col lg:flex-row shadow-md rounded-md p-10 bg-primary">
+        <div className="flex justify-between items-center flex-col lg:flex-row shadow-md rounded-md p-10 primary-color">
           <div className="w-full mb-3 lg:mb-0 mr-0 lg:mr-3">
             <input
               placeholder="Name*"

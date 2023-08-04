@@ -24,14 +24,14 @@ const Sources = () => {
           </div>
           <div className="card-body text-center">
             <h2 className="card-title justify-center">
-              WE’RE A SMART INVESTMENT
+              SMART INVESTMENT: WE ARE
             </h2>
             <p>
-              Contrary to what many might believe, hiring an outsourcing company
-              may reduce expenditures by a mile. Investing in BPO saves you not
-              only money but also time. You can dedicate that saved time to
-              managing your company’s strategy matters rather than operational
-              issues.
+              Contrary to popular belief, working with an outsourcing company
+              could significantly cut costs. BPO investments allow you to save
+              time and money. You can use the time you'll save to manage
+              strategic concerns for your business rather than day-to-day
+              problems.
             </p>
           </div>
         </div>
@@ -43,15 +43,15 @@ const Sources = () => {
           </div>
           <div className="card-body text-center">
             <h2 className="card-title justify-center">
-              WE’RE A WEIGHT LIFTED OFF YOUR SHOULDERS
+              WE REMOVE A LOAD FROM YOUR SHOULDERS
             </h2>
             <p>
-              This reason is especially for those who like to take matters into
-              their own hands. Sometimes, things are better left in the hands of
-              others. In this case, you don’t have to worry about looking for or
-              hiring new employees. You don’t have to worry about training them
-              either. BPO is meant to have newly qualified team members ready
-              for when you need them.
+              This justification is extremely important to independent thinkers.
+              Sometimes it's best to leave matters in the hands of others. You
+              won't need to worry about finding or employing new personnel in
+              this situation. Additionally, you don't need to stress about
+              training them. When you require new team members, BPO is designed
+              to have them available.
             </p>
           </div>
         </div>
@@ -63,13 +63,13 @@ const Sources = () => {
           </div>
           <div className="card-body text-center">
             <h2 className="card-title justify-center">
-              ANY BUSINESS CAN HAVE US
+              ANY COMPANY CAN HIRE US
             </h2>
             <p>
-              Outsourcing is no longer for big businesses only. BPO services are
-              attractive because of their viability. They are also tailored to
-              each company’s needs. We set to make things easier and more
-              cost-effective for any company, regardless of size.
+              Big firms are no longer the only ones who outsource. The viability
+              of BPO services makes them appealing. They are also customized to
+              the requirements of each company. We set out to make things
+              simpler and more affordable for every size of business.
             </p>
           </div>
         </div>
@@ -80,13 +80,12 @@ const Sources = () => {
             </div>
           </div>
           <div className="card-body text-center">
-            <h2 className="card-title justify-center">YOU’RE NOT ALONE</h2>
+            <h2 className="card-title justify-center">WE ARE WITH YOU</h2>
             <p>
-              For a small starting business, we allow you to focus on your
-              company’s core values. As a Business process outsourcing, we stand
-              as a group of professionals helping you create your Team without
-              overpaying them. Professional providers of our Team exist to help
-              you.
+              We give you the freedom to concentrate on your company's key
+              beliefs as a small, beginning firm. We work with you to build your
+              team while not overpaying them as a business process outsourcing
+              team. Our Team's qualified professionals are here to assist you.
             </p>
           </div>
         </div>
@@ -98,13 +97,13 @@ const Sources = () => {
           </div>
           <div className="card-body text-center">
             <h2 className="card-title justify-center">
-              WE ARE YOUR STRATEGIC MOVE
+              OUR MOVEMENT IS YOUR STRATEGIC MOVE
             </h2>
             <p>
-              You can outsource almost anything. Outsourcing would be best when
-              an area is not cost-effective, needs some TLC, or is inefficient.
-              Also, investing in solving problems within your business can
-              sometimes be worse and hurt your company.
+              Almost anything can be outsourced. When a task is not economical,
+              needs some attention, or is ineffective, outsourcing is the best
+              option. Additionally, spending money on internal issues might
+              occasionally make matters worse and harm your organization.
             </p>
           </div>
         </div>
@@ -116,14 +115,14 @@ const Sources = () => {
           </div>
           <div className="card-body text-center">
             <h2 className="card-title justify-center">
-              WE WORK TO INCREASE CUSTOMER SATISFACTION
+              OUR GOAL IS TO RAISE CUSTOMER SATISFACTION
             </h2>
             <p>
-              We picture our company as one that customers can’t stop
-              recommending because our employees are doing a fantastic job. Our
-              services aim to provide quality employees to their hiring
-              businesses to make their investments worthwhile. Customer
-              satisfaction results in our satisfaction in doing business.
+              Because of the excellent work our teammates are doing, we envision
+              our business as one that customers can't stop promoting. Our
+              services are designed to help employers find qualified workers who
+              will pay back their investments. When customers are happy, we are
+              happy to do business with them.
             </p>
           </div>
         </div>

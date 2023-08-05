@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 const QoutaForm = () => {
   const {
@@ -10,7 +11,10 @@ const QoutaForm = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    emailjs
+      .send("service_62q76kb", "template_6nzb3jj", data, "ZBnKBPAkif5GSXlqf")
+      .then((res) => console.log("ok"))
+      .catch((err) => console.log(err));
     reset();
   };
 
@@ -20,7 +24,7 @@ const QoutaForm = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="flex justify-center items-center relative bottom-20 lg:bottom-10"
       >
-        <div className="flex justify-between items-center flex-col lg:flex-row shadow-md rounded-md p-10 primary-color">
+        <div className="flex justify-between items-center flex-col lg:flex-row shadow-md rounded-md p-10 bg-blue-300">
           <div className="w-full mb-3 lg:mb-0 mr-0 lg:mr-3">
             <input
               placeholder="Name*"

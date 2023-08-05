@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(true);
   const [dropShow, setDropShow] = useState(false);
   return (
-    <nav className="flex items-center flex-col z-10 lg:flex-row justify-between primary-color text-white sticky top-0">
+    <nav className="flex items-center flex-col z-10 lg:flex-row justify-between bg-blue-300 shadow-lg text-white sticky top-0">
       <div className="nav-left flex items-center w-full lg:w-auto justify-between p-3">
         <div className="logo pl-3">
           <Link to="/">
@@ -62,7 +62,7 @@ const Navbar = () => {
             <ul
               className={`${
                 dropShow ? "block" : "hidden"
-              } absolute float-menu left-0 top-20 bg-blue-900`}
+              } absolute float-menu left-0 top-20 bg-blue-500`}
             >
               <li>
                 <Link to="/customer-support">Customer Support</Link>

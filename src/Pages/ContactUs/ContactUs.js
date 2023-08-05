@@ -7,6 +7,7 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
   const {
@@ -16,7 +17,10 @@ const ContactUs = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    emailjs
+      .send("service_62q76kb", "template_l5knkxx", data, "ZBnKBPAkif5GSXlqf")
+      .then((res) => console.log("ok"))
+      .catch((err) => console.log(err));
     reset();
   };
   return (
@@ -48,7 +52,9 @@ const ContactUs = () => {
             <ul className="text-xl leading-10">
               <li className="hover:text-blue-400 transition-all">
                 <FontAwesomeIcon icon={faLocationDot} />
-                <span>Address: 35\1 Ibrahimpur,Kafrul Dhaka-1206</span>
+                <span>
+                  Address: 35/1 Srijoni Sarak, Ibrahimpur, Kafrul, Dhaka-1206
+                </span>
               </li>
               <li>
                 <a
@@ -62,11 +68,11 @@ const ContactUs = () => {
               </li>
               <li>
                 <a
-                  href="mailto:info.kasefbusiness@gmail.com"
+                  href="mailto:kesefsolutionsltd@gmail.com"
                   className="hover:text-blue-400 transition-all"
                 >
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <span>Email: info.kasefbusiness@gmail.com</span>
+                  <span>Email: kesefsolutionsltd@gmail.com</span>
                 </a>
               </li>
             </ul>
@@ -97,7 +103,7 @@ const ContactUs = () => {
                     <span className="label-text">Email*</span>
                   </label>
                   <input
-                    {...register("email", { required: true })}
+                    {...register("mail", { required: true })}
                     placeholder="email"
                     className="input input-bordered"
                   />
@@ -140,8 +146,12 @@ const ContactUs = () => {
                     className="select select-bordered w-full max-w-xs"
                     {...register("inquiry", { required: true })}
                   >
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
+                    <option>Customer Support</option>
+                    <option>Back Office Support</option>
+                    <option>Telemarketing & Sales</option>
+                    <option>Virtual Assistance</option>
+                    <option>Digital Marketing</option>
+                    <option>Web Design & Development</option>
                   </select>
                   {errors.inquiry && (
                     <span className="text-red-700 mt-3">
@@ -151,7 +161,7 @@ const ContactUs = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text">Info</span>
+                    <span className="label-text">Info*</span>
                   </label>
                   <textarea
                     className="textarea textarea-bordered"
@@ -173,15 +183,12 @@ const ContactUs = () => {
         </div>
       </div>
       {/*---------------------------------------------- Hero with Form -------------------------------------------*/}
-      <div class="h-[400px] px-44 my-20">
+      <div className="h-[400px] px-44 my-20">
         <iframe
           width="100%"
           height="100%"
-          frameborder="0"
           title="map"
-          marginheight="0"
-          marginwidth="0"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.676878853302!2d90.3830739749253!3d23.794517987082052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c73a4181b93b%3A0x93683c1dc2e1f941!2s35%2C%201%20Ibrahimpur%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1691243091369!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.6771079692235!2d90.38103387898101!3d23.794509832029046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c73a44e2cc81%3A0x547369e51c6cfa6!2s35%20Srijoni%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1691254428477!5m2!1sen!2sbd"
         ></iframe>
       </div>
     </div>

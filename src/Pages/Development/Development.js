@@ -110,13 +110,15 @@ const Development = () => {
             alt="office"
           />
           <div className="ml-0 lg:ml-10">
-            <h1 className="text-4xl font-bold">Web Development Life Cycle</h1>
+            <h1 className="text-4xl font-bold">Web Design & Development</h1>
             <hr className="w-10 mt-4 h-[3px] primary-color" />
             <p className="py-6">
-              The process of Web development life cycle involves understanding
-              our client’s requirements, market research, knowledge about the
-              target audience, planning, design, development, testing, and
-              maintenance of the website.
+              At KBS, we specialize in creating visually stunning and
+              user-friendly websites that leave a lasting impression. Our team
+              of skilled designers and developers work collaboratively to craft
+              custom websites that align with your brand identity and business
+              goals. From responsive designs to seamless functionality, we
+              ensure a seamless user experience for your customers.
             </p>
           </div>
         </div>

@@ -139,15 +139,16 @@ const DigitalMarketing = () => {
             alt="office"
           />
           <div className="ml-0 lg:ml-10">
-            <h1 className="text-4xl font-bold">
-              How Customer Support Sets You On The Right Track?
-            </h1>
+            <h1 className="text-4xl font-bold">Digital Marketing</h1>
             <hr className="w-10 mt-4 h-[3px] primary-color" />
             <p className="py-6">
-              Excellent customer service means following best practices like
-              valuing customers’ time, having a pleasant attitude, and providing
-              knowledgeable and resourceful resources. We also take things
-              further to exceed rather than meet their expectations.
+              Our digital marketing experts are proficient in devising
+              data-driven strategies to boost your online presence and drive
+              tangible results. We offer a wide range of digital marketing
+              services, including search engine optimization (SEO),
+              pay-per-click (PPC) advertising, social media marketing, email
+              marketing, and content creation. We tailor our approach to suit
+              your unique requirements and maximize your ROI.
             </p>
           </div>
         </div>

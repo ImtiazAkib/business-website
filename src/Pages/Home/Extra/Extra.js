@@ -4,9 +4,7 @@ import worker from "../../../assets/images/workers.jpg";
 const Extra = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-center mt-10">
-        Life At Kesef Business Solutions
-      </h1>
+      <h1 className="text-4xl font-bold text-center mt-10">Why Choose KBS</h1>
       <hr className="w-10 mt-4 h-[3px] primary-color mr-auto ml-auto" />
       <div className="hero mt-16 mb-16">
         <div className="hero-content flex-col lg:flex-row">
@@ -16,22 +14,55 @@ const Extra = () => {
             alt="office"
           />
           <div className="ml-0 lg:ml-10">
-            <p className="py-6">
-              Kesef Business Solutions (KBS) is one of the fastest-growing
-              telemarketing companies in Bangladesh. Since its inception in
-              2019, we have worked hard to develop the company and adapt to any
-              circumstances, making SBS the best version of itself. With a
-              dynamic and energetic team on our side, SBS thrives on providing
-              skilful delivery of services and, most importantly, utmost
-              customer satisfaction. We started with only a handful of
-              telemarketers in the beginning. However, in the past few years, we
-              have masterfully survived the blows of COVID-19 and have proudly
-              stepped into a progressive stage with a team of nearly 50+
-              employees and a bigger office. We take pride in our empowered
-              management team, who are working synergistically every day to make
-              better improvements in this company.
-            </p>
-            <button className="btn btn-neutral">Read More</button>
+            <div className="py-6">
+              <ul className="pb-4">
+                <li>
+                  <span className="font-bold">Comprehensive Solutions:</span>
+                  <span>
+                    {" "}
+                    We offer a full suite of services, making us a one-stop
+                    solution for your digital and operational needs
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Experienced Team:</span>
+                  <span>
+                    {" "}
+                    Our team comprises skilled professionals with expertise in
+                    their respective domains, ensuring high-quality
+                    deliverables.
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Tailored Approach: </span>
+                  <span>
+                    We believe in understanding your unique requirements and
+                    crafting customized solutions that align with your business
+                    objectives.
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Client-Centric Focus: </span>
+                  <span>
+                    Your satisfaction is our priority. We maintain open
+                    communication and adapt our services to exceed your
+                    expectations
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Cost-Effective: </span>
+                  <span>
+                    Outsourcing to KBS allows you to access top-notch services
+                    without the burden of hiring and training an in-house team.
+                  </span>
+                </li>
+              </ul>
+              Join Kesef Business Solutions today to leverage our expertise in
+              web design & development, digital marketing, virtual assistance,
+              telemarketing & sales, and customer support. Let us be your
+              strategic partner in propelling your business forward and
+              achieving sustainable growth.
+            </div>
           </div>
         </div>
       </div>

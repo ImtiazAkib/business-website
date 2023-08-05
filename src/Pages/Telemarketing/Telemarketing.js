@@ -34,10 +34,11 @@ const Telemarketing = () => {
               TELEMARKETING, LEADS GENERATION & SALES TEAM
             </h1>
             <p>
-              Telemarketing directly markets goods or services to potential
-              customers via telephone or the Internet. Four common kinds of
-              telemarketing include outbound, inbound, lead generation, and
-              sales calls.
+              While diversifying our services, we remain committed to our roots
+              in telemarketing and sales. Our experienced team of telemarketers
+              excels in lead generation, appointment setting, market research,
+              and customer outreach. We take a customer-centric approach to
+              represent your brand professionally and drive business growth.
             </p>
           </div>
         </div>

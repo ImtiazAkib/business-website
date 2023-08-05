@@ -4,7 +4,6 @@ import img1 from "../../assets/images/about2.jpg";
 import img2 from "../../assets/images/about3.jpg";
 import img3 from "../../assets/images/about4.jpg";
 import img4 from "../../assets/images/about5.jpg";
-import AssociatesCarousel from "../Home/AssociatesCarousel/AssociatesCarousel";
 import BottomBanner from "../Home/BottomBanner/BottomBanner";
 
 const AboutUs = () => {
@@ -90,18 +89,19 @@ const AboutUs = () => {
           <div className="ml-0 lg:ml-10">
             <h1 className="text-4xl font-bold">OUR VISION</h1>
             <p className="py-6">
-              Our telemarketing warriors are always coming up with new
-              innovative ideas to provide the best service from their end and
-              deliver maximum customer satisfaction. In the upcoming years, our
-              primary goal is to expand our services category to reach more
-              people. We are already magnifying our office into a bigger modern
-              workspace and providing work for 1000+ employees of all genders.
-              We are already providing a great working environment for our
-              employees, and we are focusing on making it even better in the
-              upcoming days to deliver the best output possible from our
-              employees. We are on our journey to make Kesef Business Solutions
-              one of Bangladesh’s top three telemarketing companies within the
-              next few years.
+              "At Kesef Business Solutions Ltd, our vision is to revolutionize
+              the outsourcing industry by becoming the go-to partner for
+              businesses worldwide seeking seamless, innovative, and
+              value-driven solutions. We envision a future where our
+              cutting-edge technology, skilled workforce, and unwavering
+              commitment to excellence empower businesses to thrive in an
+              increasingly competitive global landscape. We aim to be at the
+              forefront of digital transformation, embracing emerging
+              technologies to provide our clients with the most efficient and
+              customized outsourcing services available. Our vision encompasses
+              creating a positive impact on businesses by enabling them to focus
+              on their core competencies while we take care of their non-core
+              but crucial operational functions.
             </p>
           </div>
         </div>
@@ -139,14 +139,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="text-center p-24">
-        <h1 className="text-3xl mt-11 font-bold mb-9">
-          Ultimately, communication and rapport skills mixed with a good measure
-          of passion and determination hold together good telemarketing.
-        </h1>
-        <hr className="bg-slate-800 h-[2px] mb-16" />
-        <AssociatesCarousel />
-      </div>
+
       <BottomBanner></BottomBanner>
     </div>
   );

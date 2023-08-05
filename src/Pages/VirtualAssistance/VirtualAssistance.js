@@ -54,13 +54,12 @@ const VirtualAssistance = () => {
             </h1>
             <hr className="w-10 mt-4 h-[3px] primary-color" />
             <p className="py-6">
-              With the help of our Virtual Executive Assistant, you’ll save tons
-              of time. From the daily grind of processing invoices to doing
-              profit and loss, tasks like this can be real-time-killers. Virtual
-              Assistance saves you money. Your company will see a rapid increase
-              in productivity. Office politics are eliminated with virtual
-              Assistance. Most importantly, it’s the best quality is
-              flexibility.
+              KBS provides virtual assistance to streamline your business
+              operations and increase efficiency. Our skilled virtual assistants
+              can handle administrative tasks, data entry, appointment
+              scheduling, email management, and more. Outsourcing these tasks to
+              us allows you to focus on core business activities and scale your
+              operations effectively.
             </p>
           </div>
         </div>

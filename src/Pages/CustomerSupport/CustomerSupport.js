@@ -218,10 +218,10 @@ const CustomerSupport = () => {
               How Customer Support Sets You On The Right Track?
             </h1>
             <p className="py-6">
-              Excellent customer service means following best practices like
-              valuing customers’ time, having a pleasant attitude, and providing
-              knowledgeable and resourceful resources. We also take things
-              further to exceed rather than meet their expectations.
+              At KBS, we understand the importance of excellent customer support
+              in building lasting relationships. Our dedicated customer support
+              team ensures prompt and efficient assistance to your clients,
+              resolving inquiries, and providing a positive customer experience.
             </p>
           </div>
         </div>

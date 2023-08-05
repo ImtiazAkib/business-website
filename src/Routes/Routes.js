@@ -11,6 +11,7 @@ import VirtualAssistance from "../Pages/VirtualAssistance/VirtualAssistance";
 import DigitalMarketing from "../Pages/DigitalMarketing/DigitalMarketing";
 import Development from "../Pages/Development/Development";
 import Blogs from "../Pages/Blogs/Blogs";
+import NotFound from "../Pages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blogs></Blogs>,
+      },
+      {
+        path: "*",
+        element: <NotFound></NotFound>,
       },
     ],
   },

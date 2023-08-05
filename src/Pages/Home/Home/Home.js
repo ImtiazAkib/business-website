@@ -17,9 +17,9 @@ const Home = () => {
       <SimpleHero></SimpleHero>
       <Solutions></Solutions>
       <Elements></Elements>
+      <AssociatesCarousel />
       <Sources></Sources>
       <Extra></Extra>
-      <AssociatesCarousel />
       <BottomBanner />
     </div>
   );

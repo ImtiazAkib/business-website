@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Solutions = () => {
   return (
-    <div className="primary-color text-white">
+    <div className="bg-blue-300 text-white">
       <h2 className="text-center text-3xl pt-10 pb-10 uppercase">
         Our Solutions
       </h2>

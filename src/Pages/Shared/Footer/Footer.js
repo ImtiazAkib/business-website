@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer p-10 text-white primary-color lg:grid-cols-4">
         <div className="lg:col-span-2 lg:ml-24 lg:mt-5">
           <p className="lg:w-96">
-            The Team of Synergy Business Solution has been lucky enough to work
+            The Team of Kesef Business Solutions has been lucky enough to work
             in great organizations that are life-affirming. In this healthier
             work environment, we are recognized and treated as human beings.
           </p>
@@ -28,35 +28,31 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">Contact Us</span>
-          <p>
-            Synergy Business Solution Level-10, <br /> Fattah Plaza, 70, Green
-            Road, Panthapath, Dhaka 1205
-          </p>
+          <p>Address: 35\1 Ibrahimpur,Kafrul Dhaka-1206</p>
 
           <p>
             Phone:{" "}
             <a
-              href="tel:+88 01312 083511"
+              href="tel:+8801799674891"
               className="hover:text-blue-400 transition-all"
             >
-              +88 01312 083511 (BD)
+              +8801799674891
             </a>
           </p>
 
-          <p>+1 646 797 5714 (USA)</p>
           <p>
             Email:{" "}
             <a
-              href="mailto:contact@synergy-businesssolution.com"
+              href="mailto:info.kasefbusiness@gmail.com"
               className="hover:text-blue-400 transition-all"
             >
-              contact@synergy-businesssolution.com
+              info.kasefbusiness@gmail.com
             </a>
           </p>
         </div>
       </footer>
       <h2 className="text-center text-xl pt-3 pb-3 bg-slate-800 text-white">
-        Copyright © 2023 Synergy Business Solution
+        Copyright © 2023 Kesef Business Solutions
       </h2>
     </>
   );

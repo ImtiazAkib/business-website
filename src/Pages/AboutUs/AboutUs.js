@@ -41,7 +41,7 @@ const AboutUs = () => {
           <div className="ml-0 lg:ml-10">
             <h1 className="text-4xl font-bold">OUR EVALUATION</h1>
             <p className="py-6">
-              SYNERGY BUSINESS SOLUTION was founded in September 2019, believing
+              Kesef Business Solutions was founded in September 2019, believing
               that a flawless customer experience is the most critical factor in
               the success of any brand. We believe that outsourcing and
               globalization of manufacturing allow companies to reduce costs,
@@ -99,7 +99,7 @@ const AboutUs = () => {
               We are already providing a great working environment for our
               employees, and we are focusing on making it even better in the
               upcoming days to deliver the best output possible from our
-              employees. We are on our journey to make Synergy Business Solution
+              employees. We are on our journey to make Kesef Business Solutions
               one of Bangladesh’s top three telemarketing companies within the
               next few years.
             </p>

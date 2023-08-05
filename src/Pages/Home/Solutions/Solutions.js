@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Solutions = () => {
   return (
@@ -28,6 +29,9 @@ const Solutions = () => {
               training, implementation, maintenance, upgrade, and disposal of a
               good or service.
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
         <div className="card  glass">
@@ -49,6 +53,9 @@ const Solutions = () => {
               customer-facing. They are responsible for streamlining and
               improving the customer experience (CX).
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
         <div className="card  glass">
@@ -73,6 +80,9 @@ const Solutions = () => {
               buy by our sales professionals because to their expertise in
               talking.
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
         <div className="card  glass">
@@ -96,6 +106,9 @@ const Solutions = () => {
               setting up appointments, and managing social media and email
               accounts.
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
         <div className="card  glass">
@@ -119,6 +132,9 @@ const Solutions = () => {
               digital marketing collaboration, it's important to create a group
               that strives to achieve your objectives as a whole.
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
         <div className="card  glass">
@@ -143,6 +159,9 @@ const Solutions = () => {
               skills, as the name would imply. While web development decides how
               a website performs, web design affects how it looks and feels.
             </p>
+            <a href="#top" className="btn btn-neutral">
+              Get Solution
+            </a>
           </div>
         </div>
       </div>

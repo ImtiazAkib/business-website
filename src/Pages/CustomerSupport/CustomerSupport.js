@@ -245,7 +245,7 @@ const CustomerSupport = () => {
             <p>Feel Free To Call Us</p>
             <p className="text-2xl">
               <FontAwesomeIcon icon={faPhone} />
-              +88 01312 083511
+              +8801799674891
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ const LifeWithUs = () => {
         <div className="hero-content text-center text-white">
           <div>
             <h1 className="mb-5 text-5xl font-bold">
-              Life At Synergy Business Solution
+              Life At Kesef Business Solutions
             </h1>
           </div>
         </div>
@@ -30,7 +30,7 @@ const LifeWithUs = () => {
           />
           <div className="ml-0 lg:ml-10">
             <p className="py-0 lg:py-6">
-              SYNERGY BUSINESS SOLUTION was founded in September 2019, believing
+              Kesef Business Solutions was founded in September 2019, believing
               that a flawless customer experience is the most critical factor in
               the success of any brand. We believe that outsourcing and
               globalization of manufacturing allow companies to reduce costs,
@@ -66,7 +66,7 @@ const LifeWithUs = () => {
           of all genders. We are already providing a great working environment
           for our employees and we are focusing to make it even better in the
           upcoming days so we can deliver the best output possible from our
-          employees. We are on our journey to make Synergy Business Solution one
+          employees. We are on our journey to make Kesef Business Solutions one
           of the top three telemarketing companies in Bangladesh within the next
           few years.
         </p>

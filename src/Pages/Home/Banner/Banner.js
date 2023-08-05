@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../../assets/images/banner.jpg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -15,9 +16,12 @@ const Banner = () => {
         <div>
           <h1 className="mb-5 text-5xl font-bold">WE PROVIDE SOLUTIONS</h1>
 
-          <button className="btn btn-neutral uppercase pl-7 pr-7">
+          <Link
+            to="/contact-us"
+            className="btn btn-neutral uppercase pl-7 pr-7"
+          >
             Contact us
-          </button>
+          </Link>
         </div>
       </div>
     </div>

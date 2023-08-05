@@ -22,7 +22,7 @@ const BottomBanner = () => {
           <p>Contact an experienced team member to fulfill your needs.</p>
           <p className="text-2xl">
             <FontAwesomeIcon icon={faPhone} />
-            +88 01312 083511 (BD), +1 646 797 5714 (USA)
+            +8801799674891
           </p>
         </div>
       </div>

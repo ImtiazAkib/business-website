@@ -49,9 +49,6 @@ const Navbar = () => {
           <li>
             <Link to="/about">About Us</Link>
           </li>
-          {/* <li>
-            <a to="/">How we work</a>
-          </li> */}
           <li
             className="relative"
             onClick={() => setDropShow(!dropShow)}
@@ -76,27 +73,28 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link>Telemarketing & Sales</Link>
+                <Link to="/telemarketing-sales">Telemarketing & Sales</Link>
               </li>
               <li>
-                <Link>Virtual Executive Assistance</Link>
+                <Link to="/virtual-executive-assistant">
+                  Virtual Executive Assistance
+                </Link>
               </li>
               <li>
-                <Link>Digital Marketing</Link>
+                <Link to="/digital-marketing">Digital Marketing</Link>
               </li>
               <li>
-                <Link>Web Design & Development</Link>
+                <Link to="/web-design-development">
+                  Web Design & Development
+                </Link>
               </li>
             </ul>
           </li>
           <li>
             <Link to="/life-with-us">Life with us</Link>
           </li>
-          {/* <li>
-            <a to="/">career</a>
-          </li> */}
           <li>
-            <Link to="/">blog</Link>
+            <Link to="/blogs">blog</Link>
           </li>
           <li>
             <Link to="/contact-us">contact us</Link>

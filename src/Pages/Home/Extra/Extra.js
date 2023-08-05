@@ -5,7 +5,7 @@ const Extra = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center mt-10">
-        Life At Synergy Business Solution
+        Life At Kesef Business Solutions
       </h1>
       <hr className="w-10 mt-4 h-[3px] primary-color mr-auto ml-auto" />
       <div className="hero mt-16 mb-16">
@@ -17,7 +17,7 @@ const Extra = () => {
           />
           <div className="ml-0 lg:ml-10">
             <p className="py-6">
-              Synergy Business Solution (SBS) is one of the fastest-growing
+              Kesef Business Solutions (KBS) is one of the fastest-growing
               telemarketing companies in Bangladesh. Since its inception in
               2019, we have worked hard to develop the company and adapt to any
               circumstances, making SBS the best version of itself. With a
